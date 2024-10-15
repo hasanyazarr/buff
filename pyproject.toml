@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "buff"
+version = "0.1.0"
+description = "Bubble Flow Field"
+authors = [
+  {name = "Marcelo Lerendegui", email = "marcelo@lerendegui.com"},
+  {name = "Kai Riemer", email = "kr616@ic.ac.uk"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.8"
+
+[project.optional-dependencies]
+net_gen = ["buff-net_gen"]
+eval = ["buff-eval"]
+all = ["buff-net_gen", "buff-eval"]
+
+[tool.setuptools]
+packages = ["buff"]
+
+[tool.pytest.ini_options]
+addopts = "-v -s"
+testpaths = ["buff"]
