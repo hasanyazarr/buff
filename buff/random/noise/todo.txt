@@ -1,0 +1,15 @@
+% Noise:
+%    - Uniform 
+%    - Gaussian
+%    - 1/F noise
+%    - Bandpassed Noise
+%    - Salt/pepper
+%    - Perlin
+%    - Simplex
+
+% Artifacts:
+%    - Gaussian Blobs
+%    - Marching Squares
+
+% Others:
+%    TGC

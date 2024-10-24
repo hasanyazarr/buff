@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "buff-net_gen"
+version = "0.0.1alpha1"
+description = "BUFF vesel network generator"
+authors = [
+  {name = "Marcelo Lerendegui", email = "marcelo@lerendegui.com"},
+  {name = "Kai Riemer", email = "kr616@ic.ac.uk"}
+]
+license = {text  = "MIT"}
+requires-python = ">=3.8"
+dependencies = [
+  "numpy",
+  "matplotlib",
+  "plotly",
+  "numpy-stl"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=6.2.3",
+    "black>=21.5b1",
+]
+
+[tool.setuptools]
+package-dir = {buff.net_gen = "net_gen"}
+
+[tool.pytest.ini_options]
+addopts = "-v -s"
+testpaths = ["tests"]
+
+[project.urls]
+Homepage = "https://github.com/marcelolerendegui/buff"
+Repository = "https://github.com:marcelolerendegui/buff.git"
+"Bug Tracker" = "https://github.com/marcelolerendegui/buff/issues"
+Changelog = "https://github.com/marcelolerendegui/buff/CHANGELOG.md"
