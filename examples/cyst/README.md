@@ -31,11 +31,15 @@ The script performs the following steps:
 The script produces two figures:
 1. A visualization of the phantom geometry, including cysts, high-scattering regions, and the transducer position:
 
-![Scene](scene.bmp "Scene")
+<p>
+<img src="img/scene.bmp" width="400" height="400">
+</p>
 
 2. The simulated ultrasound image of the phantom:
 
-![Output Image](image.bmp "Output Image")
+<p>
+<img src="img/image.bmp" width="400" height="400">
+</p>
 
 ## Customization
 

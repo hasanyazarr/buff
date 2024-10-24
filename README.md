@@ -55,7 +55,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-BUFF will be released on 2024, in the meantime, here's the preprint:
+Preprint:
 [BUbble Flow Field: a Simulation Framework for Evaluating Ultrasound Localization Microscopy Algorithms](https://arxiv.org/abs/2211.00754)
 
 **BUFF** is a comprehensive open-source simulation platform designed to validate **Ultrasound Localization Microscopy (ULM)** algorithms. This tool generates contrast-enhanced ultrasound images within vascular tree geometries that mimic realistic flow characteristics, facilitating the testing and validation of ULM techniques using ground truth data. 
@@ -110,13 +110,17 @@ Currently, the code is in its alpha state. While we work on adding tutorials and
 
  - [Cyst Example](examples/cyst/README.md)
  - [Cross-Tube Example](examples/cross_tube/README.md)
+ - Video Example soon...
+ - Network Generation Example soon...
+ - Evaluation Example soon...
 
+<!--
 Load a vascular network model (either random or user-defined).
 Define blood flow parameters and simulate using the CFD solver.
 Simulate microbubble dynamics and acoustic fields.
 Run validation algorithms on the generated ultrasound images.
 Detailed examples and tutorials will be available soon to demonstrate specific workflows.
-
+-->
 
 <!-- AUTHORS -->
 ## Authors
@@ -149,7 +153,7 @@ We welcome contributions to improve the platform! If you encounter any issues or
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the MIT License. See [LICENSE.txt](LICENSE.txt) for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -166,11 +170,17 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-BUFF was developed at [ULIS] (https://tanglab.bg.ic.ac.uk)
-<img src="https://tanglab.bg.ic.ac.uk/wp-content/uploads/2023/04/4-selectforgroupweb_resize-scaled.jpg" width="400px;"/><br /><sub><a href="https://tanglab.bg.ic.ac.uk">ULIS: Ultrasound Laboratory for Imaging and Sensing</a></sub>
-
-
 * [FieldII](https://field-ii.dk/)
+* [Best-README-Template](https://github.com/othneildrew/Best-README-Template/)
+
+<p>
+<img src="https://tanglab.bg.ic.ac.uk/wp-content/uploads/2023/04/4-selectforgroupweb_resize-scaled.jpg" width="400px;"/>
+<br />
+<sub>BUFF was developed at<a href="https://tanglab.bg.ic.ac.uk">ULIS: Ultrasound Laboratory for Imaging and Sensing</a></sub>
+</p>
+
+
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
