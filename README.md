@@ -105,6 +105,12 @@ tar -xvzf Field_II_ver_3_30_linux.tar.gz -C third_party/Field_II_ver_3_30_linux/
 
 Currently, the code is in its alpha state. While we work on adding tutorials and more documentation, here’s a basic outline to get started:
 
+### Examples
+
+
+ - [Cyst Example](examples/cyst/README.md)
+ - [Cross-Tube Example](examples/cross_tube/README.md)
+
 Load a vascular network model (either random or user-defined).
 Define blood flow parameters and simulate using the CFD solver.
 Simulate microbubble dynamics and acoustic fields.

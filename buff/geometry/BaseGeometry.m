@@ -37,11 +37,11 @@ classdef (Abstract) BaseGeometry < Oriented3D
             plot3(ha, vol_points(:,1), vol_points(:,2), vol_points(:,3), '*');
             plot3(ha, self.center(1), self.center(2), self.center(3), '*');
 
-            quiver3(ha, self.center(1), self.center(2), self.center(3), self.e1(1), self.e1(2), self.e1(3), self.size(1));
+            quiver3(ha, self.center(1), self.center(2), self.center(3), self.e1(1), self.e1(2), self.e1(3), self.size(1)/2);
 
-            quiver3(ha, self.center(1), self.center(2), self.center(3), self.e2(1), self.e2(2), self.e2(3), self.size(2));
+            quiver3(ha, self.center(1), self.center(2), self.center(3), self.e2(1), self.e2(2), self.e2(3), self.size(2)/2);
 
-            quiver3(ha, self.center(1), self.center(2), self.center(3), self.e3(1), self.e3(2), self.e3(3), self.size(3));
+            quiver3(ha, self.center(1), self.center(2), self.center(3), self.e3(1), self.e3(2), self.e3(3), self.size(3)/2);
             
             self.plot_boundary(ha);
             xlabel(ha, "X");

@@ -1,5 +1,5 @@
 %% Cleanup
-%clear all;
+clear all;
 close all;
 clc;
 
@@ -119,6 +119,7 @@ point_scats = LinearScatterers(...
 
 hf = figure();
 ha = axes();
+
 cyst_2mm.plot(ha);
 cyst_3mm.plot(ha);
 cyst_4mm.plot(ha);

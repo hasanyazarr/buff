@@ -1,19 +1,19 @@
 %% Cleanup
 clear all;
-% close all;
+close all;
 clc;
 
-addpath(genpath('/mnt/media/imperial/repos/simsn/src'));
-addpath("/home/marcelo/programs/Field_II_ver_3_24_linux");
+addpath(genpath('../../buff'));
+addpath("../../third_party/Field_II_ver_3_30_linux");
 field_init(0);
 set_sampling(GlobalConfig().fs);
 
 
 %% Setup
 space = Box( ...
-        [0, 0, 5e-2], ...                   % Center
+        [0, 0, 5e-2], ...                % Center
         [2.5e-2, 2.5e-2, 2.5e-2], ...    % Size
-        [0, 0, 0] ...                       % Rotation
+        [0, 0, 0] ...                    % Rotation
 );
 
 transducer = RCA();

@@ -15,6 +15,6 @@ classdef GlobalConfig < handle
         rho_l = 997;                % [kg/m^3]  the density of the surrounding liquid
         sigma_l = 0.073;            % [N/m]     the surface tension of the surrounding liquid
         mu_l = 0.001;               % [Pa s]    the viscosity of the surrounding liquid
-        fs_bub = 1e9;               % [Hz]      the sampling frequency for bubble response calculation
+        fs_bub = 20e7;               % [Hz]      the sampling frequency for bubble response calculation
     end
 end
