@@ -1,5 +1,6 @@
 third_party/
 env/
+examples/net_gen/outputs
 
 ## MATLAB
 
